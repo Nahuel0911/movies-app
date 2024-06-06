@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <div>
+            <a href = "{% url 'home' %}">Inicio</a>
+            <a href = "{% url 'about' %}">About me</a>
+        </div>
+        {% block content %}{% endblock content %}
+    </body>
+</html>
